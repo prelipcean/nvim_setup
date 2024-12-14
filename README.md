@@ -111,7 +111,8 @@ https://gitlab.com/HiPhish/rainbow-delimiters.nvim
 https://github.com/neovim/nvim-lspconfig \
 https://github.com/williamboman/mason.nvim \
 https://github.com/williamboman/mason-lspconfig.nvim \
-https://github.com/chrisgrieser/nvim-rulebook 
+https://github.com/chrisgrieser/nvim-rulebook \
+https://github.com/nvimtools/none-ls.nvim
 
 ## Clangd notes
 https://clang.llvm.org/get_started.html \

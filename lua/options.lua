@@ -31,4 +31,3 @@ vim.opt.inccommand = "split"
 
 -- Enrich GUI terminal
 vim.opt.termguicolors = true
-
