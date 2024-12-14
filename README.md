@@ -22,8 +22,15 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 
 ## Install packages required
 ```shell
+sudo apt update
+sudo apt upgrade
 sudo apt install -y luarocks xclip ripgrep
 ```
+Check python3 version and install venv, e.g. `python3 --version` returns 3.12.something then
+```
+sudo apt install python3.12-venv
+```
+
 Optional
 ```shell
 sudo apt install tmux
@@ -59,6 +66,23 @@ mkdir ~/.config/nvim/lua/plugins/
 ```
 ### Setup configuration
 Use git repo to fast start and copy after all lua files in ~/.config/nvim directory
+
+## Mason
+Run command
+```
+:Mason
+```
+Press numbers to change the pages as shown in the winow that is open
+
+Go to Linter (4) and install
+- cpplint
+
+Go to Formatter (5) and install
+- stylua
+- asmfmt
+- clang-format
+
+ Note to search a specific language you can use `/` and name of language and after you need to be with the cursor on the desired package and press `i` to install
 
 ## Sources
 ### Youtube videos:
