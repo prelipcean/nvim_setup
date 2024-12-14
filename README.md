@@ -76,6 +76,7 @@ Press numbers to change the pages as shown in the winow that is open
 
 Go to Linter (4) and install
 - cpplint
+- sonarlint-language-server
 
 Go to Formatter (5) and install
 - stylua
@@ -103,6 +104,7 @@ Where DESIREDSTYLE can be any of following
 Vhyrro - https://www.youtube.com/watch?v=87AXw9Quy9U&list=PLx2ksyallYzW4WNYHD9xOFrPRYGlntAft \
 typecraft - https://www.youtube.com/watch?v=zHTeCSVAFNY&list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn \
 Josean Martinez - https://www.youtube.com/watch?v=o4X8GU7CCSU&list=PLnu5gT9QrFg36OehOdECFvxFFeMHhb_07
+The perfect Neovim setup for C++ - https://www.youtube.com/watch?v=lsFoZIg-oDs
 
 ### Blogs:
 https://medium.com/@shaikzahid0713/the-neovim-series-32163eb1f5d0 \
