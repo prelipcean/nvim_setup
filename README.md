@@ -84,6 +84,20 @@ Go to Formatter (5) and install
 
  Note to search a specific language you can use `/` and name of language and after you need to be with the cursor on the desired package and press `i` to install
 
+## Custom formating clang_format
+To setup a custom format run inside C or C++ project following command
+```
+~/.local/share/nvim/mason/bin/clang-format --style DESIREDSTYLE --dump-config > .clang-format
+```
+Where DESIREDSTYLE can be any of following
+- LLVM
+- Google
+- Chromium
+- Mozilla
+- WebKit
+- Microsoft
+- GNU
+
 ## Sources
 ### Youtube videos:
 Vhyrro - https://www.youtube.com/watch?v=87AXw9Quy9U&list=PLx2ksyallYzW4WNYHD9xOFrPRYGlntAft \
